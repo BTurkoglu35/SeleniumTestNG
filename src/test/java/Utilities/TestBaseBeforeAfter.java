@@ -16,7 +16,7 @@ public abstract  class TestBaseBeforeAfter {
     protected String tarih;
     //TestNG framework'unda @Before ve @After notasyonlari yerine @BeforeMethod ve @AfterMethod kullanilir
     //Calisma prensibi JUnit'deki Before,After ile aynidir
-    @BeforeMethod
+    @BeforeMethod(groups = "gp1")
     public void setUp() {
         WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver();
@@ -24,7 +24,7 @@ public abstract  class TestBaseBeforeAfter {
          driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         actions=new Actions(driver);
     }
-    @AfterMethod
+    @AfterMethod(groups = "gp1")
     public void tearDown() {
        // driver.close();
 

@@ -1,5 +1,6 @@
 package test.day16;
 
+import Utilities.TestBAseBeforeClassAfterClass;
 import Utilities.TestBaseBeforeAfter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -9,7 +10,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.TestRunner.PriorityWeight.dependsOnMethods;
 
-public class C04_depensOnMethod extends utilities.TestBAseBeforeClassAfterClass {
+public class C04_depensOnMethod extends TestBAseBeforeClassAfterClass {
     @Test
     public void test1() {
         //amazon ona sayfasina gidelim

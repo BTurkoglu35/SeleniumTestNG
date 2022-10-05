@@ -1,5 +1,6 @@
 package test.day16;
 
+import Utilities.TestBAseBeforeClassAfterClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -7,7 +8,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.TestRunner.PriorityWeight.priority;
 
-public class Odev1 extends utilities.TestBAseBeforeClassAfterClass {
+public class Odev1 extends TestBAseBeforeClassAfterClass {
     /*
     1) Bir class oluşturun: YoutubeAssertions
 

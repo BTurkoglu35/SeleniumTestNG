@@ -1,4 +1,4 @@
-package test.practice5;
+package test.practice05;
 
 import Utilities.TestBaseBeforeAfter;
 import org.openqa.selenium.By;

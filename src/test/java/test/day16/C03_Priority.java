@@ -1,8 +1,9 @@
 package test.day16;
 
+import Utilities.TestBAseBeforeClassAfterClass;
 import org.testng.annotations.Test;
 
-public class C03_Priority extends utilities.TestBAseBeforeClassAfterClass {
+public class C03_Priority extends TestBAseBeforeClassAfterClass {
     //Testlerimizi calistiriken istedigimiz siraya gore calismasini istersek
     //priority methodunu kullaniriz
     //priority kullanmazsak default olarak 0'dir
@@ -16,7 +17,7 @@ public class C03_Priority extends utilities.TestBAseBeforeClassAfterClass {
         driver.get("https://www.bestbuy.com");
     }
 
-    @Test (priority =2)
+    @Test (priority =2,groups = "gp1")
     public void amazon() {
         driver.get("https://www.amazon.com");
     }

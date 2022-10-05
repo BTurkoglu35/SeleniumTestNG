@@ -1,4 +1,4 @@
-package utilities;
+package Utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -15,7 +15,7 @@ public abstract class TestBAseBeforeClassAfterClass {
     protected  Actions actions;
 
     //@BeforeClass ve @AfterClass notasyonlarini kullanirken TestNG de kulllanirken JUnit'teki gibi static yapmaya gerek yoktur.
-    @BeforeClass
+    @BeforeClass(groups = "gp1")
     public void setUp() {
         WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver();
@@ -23,7 +23,7 @@ public abstract class TestBAseBeforeClassAfterClass {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
     }
-    @AfterClass
+    @AfterClass(groups = "gp1")
     public   void tearDown() {
         // driver.close();
 

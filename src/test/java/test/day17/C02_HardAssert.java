@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class C02_HardAssert extends TestBaseBeforeAfter {
 
-    @Test
+    @Test(groups = "gp1")
     public void test01() {
         //1-amazon anasayfaya gidin
         driver.get("https://amazon.com");

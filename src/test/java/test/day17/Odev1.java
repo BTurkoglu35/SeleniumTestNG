@@ -1,5 +1,6 @@
 package test.day17;
 
+import Utilities.TestBAseBeforeClassAfterClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -7,7 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-public class Odev1 extends utilities.TestBAseBeforeClassAfterClass {
+public class Odev1 extends TestBAseBeforeClassAfterClass {
 
         /*
          Bir class oluşturun: DependsOnTest

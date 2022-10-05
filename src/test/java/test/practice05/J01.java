@@ -1,9 +1,7 @@
-package test.practice5;
+package test.practice05;
 
 import Utilities.TestBaseBeforeAfter;
-import org.checkerframework.checker.units.qual.K;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
