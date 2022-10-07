@@ -20,11 +20,12 @@ public class Soru9 {
         //5. Kullanıcının TÜM ÜRÜNLER sayfasına başarıyla gittiğini doğrulayın
         softAssert.assertTrue(autoE.allProductsText.isDisplayed(),"tum urunler ssayfasina gidilemedi");
         //6. Arama girişine ürün adını girin ve ara düğmesine tıklayın##
-          Driver.Actions().click(autoE.urunAramaKutusu).sendKeys("Winter Top").click(autoE.aramaKutusuClick).perform();
+          Driver.Actions().click(autoE.urunAramaKutusu).sendKeys("Blue Top").click(autoE.aramaKutusuClick).perform();
         //7. 'ARARAN ÜRÜNLER'in görünür olduğunu doğrulayın
         softAssert.assertTrue(autoE.searchedProducts.isDisplayed(),"aranan urunler bolumu gorunur");
         //8. Aramayla ilgili tüm ürünlerin görünür olduğunu doğrulayın
-
-
+        autoE.viewProductBlueTop.click();
+        softAssert.assertTrue(autoE.ilkUrunIsim.isDisplayed());
+         softAssert.assertAll();
     }
 }

@@ -1,5 +1,6 @@
 package Utilities;
 
+import Utilities.ConfigReader;
 import com.github.javafaker.Faker;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

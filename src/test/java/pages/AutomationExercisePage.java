@@ -24,7 +24,7 @@ public class AutomationExercisePage {
      public WebElement allProductsListesi;
 
      @FindBy (xpath = "//*[@href='/product_details/1']")
-    public WebElement viewProductIlkUrun;
+    public WebElement viewProductBlueTop;
 
      @FindBy (xpath = "//h2[text()='Blue Top']")
     public WebElement ilkUrunIsim;
@@ -52,7 +52,7 @@ public class AutomationExercisePage {
 
      @FindBy (css = ".title.text-center")
     public WebElement searchedProducts;
-    //*[text()='Get the most recent updates from ']
+
      @FindBy(xpath = "//*[text()='Get the most recent updates from ']")
     public WebElement altBilgi;
 
@@ -62,4 +62,13 @@ public class AutomationExercisePage {
 
      @FindBy (id = "success-subscribe")
      public WebElement successSucribe;
+
+     @FindBy(xpath = "//*[@src='/get_product_picture/1']")
+    public WebElement searchProductBlueTop;
+
+     @FindBy (xpath = "(//i[@class='fa fa-list'])[1]")
+    public WebElement testCases;
+
+     @FindBy (xpath = "//*[@class='title text-center']")
+    public WebElement testCasesTitle;
 }
