@@ -1,9 +1,9 @@
 package test.day16;
 
-import Utilities.TestBAseBeforeClassAfterClass;
+import Utilities.TestBaseBeforeAfterClass;
 import org.testng.annotations.Test;
 
-public class C02_BeforeClassAfterClass extends TestBAseBeforeClassAfterClass {
+public class C02_BeforeClassAfterClass extends TestBaseBeforeAfterClass {
     @Test
     public void testAmazon() {
         driver.get("https://amazon.com");

@@ -8,9 +8,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import java.time.Duration;
-import java.time.LocalTime;
 
-public abstract  class TestBaseBeforeAfter {
+public abstract class TestBAseBeforeAfter {
+
     protected WebDriver driver;
     protected static Actions actions;
     protected String tarih;
@@ -21,12 +21,12 @@ public abstract  class TestBaseBeforeAfter {
         WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver();
         driver.manage().window().maximize();
-         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         actions=new Actions(driver);
     }
     @AfterMethod(groups = "gp1")
     public void tearDown() {
-       // driver.close();
+        // driver.close();
 
     }
 

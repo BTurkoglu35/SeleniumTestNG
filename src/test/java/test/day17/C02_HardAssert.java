@@ -1,14 +1,12 @@
 package test.day17;
 
-import Utilities.TestBaseBeforeAfter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class C02_HardAssert extends TestBaseBeforeAfter {
+public class C02_HardAssert {
 
     @Test(groups = "gp1")
     public void test01() {

@@ -29,7 +29,7 @@ public class J01_SearchProductTest extends TestBaseRapor {
         Assert.assertTrue(autoE.allProductsText.isDisplayed());
         extentTest.info(" TÜM ÜRÜNLER sayfasına başarıyla gittiğini doğrulandi");
         // 6. Arama girişine ürün adını girin ve ara düğmesine tıklayın
-        Driver.Actions().click(autoE.urunAramaKutusu).sendKeys("Blue Top").click(autoE.aramaKutusuClick).perform();
+        Driver.actions().click(autoE.urunAramaKutusu).sendKeys("Blue Top").click(autoE.aramaKutusuClick).perform();
         extentTest.info("Arama girişine ürün adı girildi ve ara düğmesine tıklayındi");
         // 7. 'ARARAN ÜRÜNLER'in görünür olduğunu doğrulayın
        Assert.assertTrue(autoE.searchedProducts.isDisplayed(),"aranan urunler bolumu gorunur");

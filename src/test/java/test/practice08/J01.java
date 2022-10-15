@@ -17,7 +17,7 @@ public class J01 {
         //kodlarımız yazarken clean code kapsamında daha sade kod yazabilmek amacı ile her test methodu içerisinde
         //ayrı bir object create etmektense bu objecti class seviyesinde instance olarak create edip
         //test methodlarında buna değer atamak ve kullanmak daha uygun bir yöntemdir
-        Driver.Actions().click(herOkuTestPage.onblur).click(herOkuTestPage.onclick)
+        Driver.actions().click(herOkuTestPage.onblur).click(herOkuTestPage.onclick)
                 .click(herOkuTestPage.onclick)
                 .contextClick(herOkuTestPage.oncontextmenu)
                 .doubleClick(herOkuTestPage.ondoubleclick)

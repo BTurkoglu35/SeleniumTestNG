@@ -1,11 +1,8 @@
 package test.day17;
 
-import Utilities.TestBAseBeforeClassAfterClass;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -13,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Odev2 extends TestBAseBeforeClassAfterClass {
+public class Odev2 {
      /*
      Yeni bir Class Olusturun : C03_SoftAssert
      “http://zero.webappsecurity.com/” Adresine gidin

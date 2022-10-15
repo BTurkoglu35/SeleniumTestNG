@@ -32,16 +32,16 @@ public class HomeWork {
                 , hepsiBurada.lgrafikTablet, hepsiBurada.lcevreBilimleri, hepsiBurada.lyazilimUrunleri, hepsiBurada.laksesuarlar, hepsiBurada.lkulaklik));
 
         for (int i = 0; i < liste.size(); i++) {
-            Driver.Actions().moveToElement(hepsiBurada.elektronik).perform();
+            Driver.actions().moveToElement(hepsiBurada.elektronik).perform();
             ReusableMethods.waitFor(2);
-            Driver.Actions().moveToElement(hepsiBurada.tabletBilgisayar).perform();
+            Driver.actions().moveToElement(hepsiBurada.tabletBilgisayar).perform();
             ReusableMethods.waitFor(2);
 
             ReusableMethods.waitFor(2);
             liste.get(i).click();
 
             ReusableMethods.waitFor(2);
-            Driver.Actions().sendKeys(Keys.PAGE_DOWN).perform();
+            Driver.actions().sendKeys(Keys.PAGE_DOWN).perform();
 
             ReusableMethods.waitFor(2);
             ReusableMethods.getScreenshot("link"+i + 1);

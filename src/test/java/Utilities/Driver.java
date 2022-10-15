@@ -1,6 +1,5 @@
 package Utilities;
 
-import Utilities.ConfigReader;
 import com.github.javafaker.Faker;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -73,20 +72,17 @@ public class Driver {
             driver = null;//kapandiktan sonra sonraki acmalari garanti altina almak icin driverí tekrar null yaptik.
         }
     }
-      public static Select Select(WebElement x){
-        Select select = new Select(x);
-        return select;
+      public static Select select(WebElement x){
+          return new Select(x);
       }
 
 
-      public static Actions Actions() {
-        Actions actions = new Actions(driver);
-        return actions;
+      public static Actions actions() {
+          return new Actions(driver);
       }
 
-      public static Faker Faker(){
-        Faker faker = new Faker();
-        return faker;
+      public static Faker faker(){
+          return new Faker();
       }
 
 }

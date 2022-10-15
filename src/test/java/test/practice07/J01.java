@@ -25,7 +25,7 @@ public class J01 {
         List<String> isListesi = new ArrayList<>(Arrays.asList("Kahvalti hazirla", "bulasiklari yika", "bebekle ilgilen", "odeve yardim et", "selenium'a calis", "uyu"));
         for (String each:isListesi
              ) {
-        Driver.Actions().click(webUniversityPage.addNewToDo).sendKeys(each,Keys.ENTER).perform();
+        Driver.actions().click(webUniversityPage.addNewToDo).sendKeys(each,Keys.ENTER).perform();
         }
 
        //Tüm yapılacakların üzerini çiz.

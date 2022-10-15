@@ -1,11 +1,10 @@
 package test.practice05;
 
-import Utilities.TestBaseBeforeAfter;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class J02 extends TestBaseBeforeAfter {
+public class J02 {
     @Test
     public void test1() {
         // 1. "http://webdriveruniversity.com/Popup-Alerts/index.html" adresine gidin

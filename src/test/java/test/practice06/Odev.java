@@ -30,7 +30,7 @@ public class Odev {
 
         saucedemo.filter.click();
 
-        Driver.Select(saucedemo.filter).selectByVisibleText("Price (low to high)");
+        Driver.select(saucedemo.filter).selectByVisibleText("Price (low to high)");
 
         Assert.assertTrue(saucedemo.lowtoHigh.isSelected());
 

@@ -1,12 +1,11 @@
 package test.practice05;
 
-import Utilities.TestBaseBeforeAfter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-public class J01 extends TestBaseBeforeAfter {
+public class J01 {
     @Test
     public void test1() {
         // go to url : https://www.techlistic.com/p/selenium-practice-form.html
