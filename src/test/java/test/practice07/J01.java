@@ -1,12 +1,12 @@
 package test.practice07;
 
-import Utilities.Driver;
+import utilities.Driver;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.ToDoPage;
-import Utilities.ConfigReader;
+import utilities.ConfigReader;
 
 import java.util.ArrayList;
 import java.util.Arrays;

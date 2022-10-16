@@ -1,4 +1,4 @@
-package Utilities;
+package utilities;
 
 import com.github.javafaker.Faker;
 import io.github.bonigarcia.wdm.WebDriverManager;

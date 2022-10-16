@@ -1,7 +1,4 @@
-package Utilities;
-import Utilities.ConfigReader;
-import Utilities.Driver;
-import Utilities.ReusableMethods;
+package utilities;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;

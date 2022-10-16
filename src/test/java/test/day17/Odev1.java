@@ -5,9 +5,10 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import utilities.TestBaseBeforeAfter;
 
 
-public class Odev1 {
+public class Odev1  extends TestBaseBeforeAfter {
 
         /*
          Bir class oluşturun: DependsOnTest

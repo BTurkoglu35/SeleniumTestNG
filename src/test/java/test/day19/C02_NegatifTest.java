@@ -1,10 +1,10 @@
 package test.day19;
 
-import Utilities.Driver;
+import utilities.Driver;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pages.HotelMyCamp;
-import Utilities.ConfigReader;
+import utilities.ConfigReader;
 
 public class C02_NegatifTest {
 //   1 ) Bir Class olustur : NegativeTest

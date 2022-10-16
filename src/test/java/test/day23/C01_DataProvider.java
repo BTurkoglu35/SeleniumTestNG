@@ -1,7 +1,7 @@
 package test.day23;
 
-import Utilities.ConfigReader;
-import Utilities.Driver;
+import utilities.ConfigReader;
+import utilities.Driver;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;

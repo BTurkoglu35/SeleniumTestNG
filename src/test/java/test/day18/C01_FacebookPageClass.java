@@ -1,6 +1,6 @@
 package test.day18;
 
-import Utilities.Driver;
+import utilities.Driver;
 import com.github.javafaker.Faker;
 import org.testng.Assert;
 import org.testng.annotations.Test;

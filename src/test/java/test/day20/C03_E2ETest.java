@@ -1,11 +1,11 @@
 package test.day20;
 
-import Utilities.Driver;
+import utilities.Driver;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HotelMyCamp;
-import Utilities.ConfigReader;
+import utilities.ConfigReader;
 
 public class C03_E2ETest {
 

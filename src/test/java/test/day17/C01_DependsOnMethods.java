@@ -1,8 +1,9 @@
 package test.day17;
 
 import org.testng.annotations.Test;
+import utilities.TestBaseBeforeAfter;
 
-public class C01_DependsOnMethods {
+public class C01_DependsOnMethods  extends TestBaseBeforeAfter {
 
     @Test
     public void test01() {

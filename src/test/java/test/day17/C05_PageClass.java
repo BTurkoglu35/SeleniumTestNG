@@ -1,6 +1,6 @@
 package test.day17;
 
-import Utilities.Driver;
+import utilities.Driver;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.devtools.v85.network.model.DataReceived;
 import org.testng.annotations.Test;

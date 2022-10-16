@@ -5,8 +5,9 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import utilities.TestBaseBeforeAfter;
 
-public class C02_HardAssert {
+public class C02_HardAssert  extends TestBaseBeforeAfter {
 
     @Test(groups = "gp1")
     public void test01() {

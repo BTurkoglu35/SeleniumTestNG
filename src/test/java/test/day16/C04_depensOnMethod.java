@@ -1,12 +1,14 @@
 package test.day16;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import utilities.TestBaseBeforeAfter;
 
-public class C04_depensOnMethod {
+public class C04_depensOnMethod extends TestBaseBeforeAfter {
     @Test
     public void test1() {
         //amazon ona sayfasina gidelim

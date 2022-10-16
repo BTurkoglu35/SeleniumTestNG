@@ -1,6 +1,6 @@
 package test.practice06;
 
-import Utilities.Driver;
+import utilities.Driver;
 import org.openqa.selenium.devtools.v85.network.model.DataReceived;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;

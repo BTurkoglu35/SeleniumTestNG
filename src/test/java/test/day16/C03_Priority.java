@@ -1,10 +1,11 @@
 package test.day16;
 
-import Utilities.TestBaseBeforeAfterClass;
+
 import com.github.dockerjava.api.model.Driver;
 import org.testng.annotations.Test;
+import utilities.TestBaseBeforeAfter;
 
-public class C03_Priority extends TestBaseBeforeAfterClass {
+public class C03_Priority extends TestBaseBeforeAfter {
     //Testlerimizi calistiriken istedigimiz siraya gore calismasini istersek
     //priority methodunu kullaniriz
     //priority kullanmazsak default olarak 0'dir

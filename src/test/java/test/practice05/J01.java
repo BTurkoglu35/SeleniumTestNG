@@ -4,10 +4,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
+import utilities.TestBaseBeforeAfter;
 
-public class J01 {
+public class J01 extends TestBaseBeforeAfter {
     @Test
-    public void test1() {
+    public void test1()  {
         // go to url : https://www.techlistic.com/p/selenium-practice-form.html
         driver.get("https://www.techlistic.com/p/selenium-practice-form.html");
         //fill the firstname

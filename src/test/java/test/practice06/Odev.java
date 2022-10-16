@@ -1,10 +1,10 @@
 package test.practice06;
 
-import Utilities.Driver;
+import utilities.Driver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.Saucedemo;
-import Utilities.ConfigReader;
+import utilities.ConfigReader;
 
 public class Odev {
       /*

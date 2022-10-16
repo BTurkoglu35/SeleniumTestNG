@@ -1,8 +1,8 @@
 package test.practice09;
 
-import Utilities.ConfigReader;
-import Utilities.Driver;
-import Utilities.TestBaseRapor;
+import utilities.ConfigReader;
+import utilities.Driver;
+import utilities.TestBaseRapor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.AutomationExercisePage;

@@ -1,4 +1,4 @@
-package Utilities;
+package utilities;
 
 import com.github.javafaker.Faker;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -15,20 +15,12 @@ import java.time.Duration;
 
 public class Driver {
     private Driver() {
-        //singleton pattern yani tekli kullanim  baska classtan obje
-        //olusturarak kullanimini engellemek icin bu classsta private
-        //constructor olusturuyoruz.
+
     }
 
     static WebDriver driver;
      static Faker faker;
-    /*
-    Testlerimizi calistirdigimizda her seferinde yeni driver olusturdugu icin her test methodu
-    icin yeni bir pencere(driver) aciyor.Eger driver'a bir deger atanmissa yani driver=null ise
-    bir kere driverí calistir diyerek bir kere if icini calistiracak.Ve driver artik bir kere
-    calsitigi icin ve deger atandigi icin null olmayacak ve direk return edecek ve diger testlerimiz
-    ayni pencere(driver) uzerinde calisacak.
-     */
+
 
     public static WebDriver getDriver() {
         if (driver == null) {
@@ -58,18 +50,18 @@ public class Driver {
     }
 
     public static void closeDriver() {
-        if (driver != null) {//driver deger atanmissa
+        if (driver != null) {
             driver.close();
-            driver = null;//kapandiktan sonra sonraki acmalari garanti altina almak icin driverí tekrar null yaptik.
+            driver = null;
         }
 
 
     }
 
     public static void quitDriver() {
-        if (driver != null) {//driverá deger atanmamissa
+        if (driver != null) {
         driver.quit();
-            driver = null;//kapandiktan sonra sonraki acmalari garanti altina almak icin driverí tekrar null yaptik.
+            driver = null;
         }
     }
       public static Select select(WebElement x){

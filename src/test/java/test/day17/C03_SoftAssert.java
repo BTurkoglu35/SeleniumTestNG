@@ -6,8 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+import utilities.TestBaseBeforeAfter;
 
-public class C03_SoftAssert {
+public class C03_SoftAssert   extends TestBaseBeforeAfter {
     @Test
     public void test01() {
         SoftAssert softAssert=new SoftAssert();

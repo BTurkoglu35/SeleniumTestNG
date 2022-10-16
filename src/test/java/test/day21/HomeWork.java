@@ -1,8 +1,8 @@
 package test.day21;
 
-import Utilities.ConfigReader;
-import Utilities.Driver;
-import Utilities.ReusableMethods;
+import utilities.ConfigReader;
+import utilities.Driver;
+import utilities.ReusableMethods;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Ignore;

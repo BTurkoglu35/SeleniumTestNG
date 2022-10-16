@@ -1,11 +1,12 @@
 package test.day16;
 
-import Utilities.TestBAseBeforeAfter;
+
 
 import org.testng.annotations.Test;
 import org.testng.internal.annotations.BaseBeforeAfter;
+import utilities.TestBaseBeforeAfter;
 
-public class C01_BeforeAfterMethod extends TestBAseBeforeAfter {
+public class C01_BeforeAfterMethod extends TestBaseBeforeAfter {
     //TestNG framework'unda @Before ve @After notasyonlari yerine @BeforeMethod ve @AfterMethod kullanilir
     //Calisma prensibi JUnit'deki Before,After ile aynidir
     @Test
